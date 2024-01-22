@@ -41,3 +41,4 @@ function calculateAndDisplay () {
   function calcAmtPerPrs (totalBill, numOfPpl) {
     return totalBill / numOfPpl
   }
+  
