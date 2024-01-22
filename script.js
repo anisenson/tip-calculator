@@ -13,7 +13,7 @@ function calculateTip(quality) {
         return bill * .10
     }
     else {
-
+        //alert("Please enter a valid value")
     }
   
 };
