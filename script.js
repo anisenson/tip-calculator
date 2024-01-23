@@ -21,11 +21,11 @@ function calculateAndDisplay () {
   // function to calculate tip based on bill amount and service quality
   function calculateTip (bill, quality) {
     if (quality === 'Great') {
-      return bill * 0.2
+      return bill * 0.20
     } else if (quality === 'Good') {
       return bill * 0.15
     } else if (quality === 'Poor') {
-      return bill * 0.1
+      return bill * 0.10
     } else {
       // Default case: return 0 for invalid or empty input
       return 0
